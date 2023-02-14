@@ -1,146 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treat</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./assets/style.css">
-<script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    
+
+     <nav>
+            <figure class="nav__logo--wrapper">
+                <a href="###"><img src="./assets/logo.svg" class="nav__logo" alt=""></a>
+                <strong>Treat</strong>
+            </figure>
+            <div class="nav__container">
+            <ul class="nav__links">
+                <a href="###" class="nav__link">
+                    <li>About</li>
+                </a>
+                <a href="###" class="nav__link">
+                    <li>Pricing </li>
+                </a>
+                <a href="###" class="nav__link">
+                    <li>Blog</li>
+                </a>
+                <a href="###" class="nav__link">
+                    <li>Log In</li>
+                </a>
+                <a href="###" class="nav__link">
+                    <li>Contact Us</li>
+                </a>
+                <a href="###" class="nav__link purple__btn">
+                    <li>Sign up</li>
+                </a>
+            </ul>
+            </div>
+            <button class="btn__menu">
+                  <i class="fas fa-bars"></i>
+            </button>
+
+            <div class="menu__backdrop">
+                <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                    <i class="fas fa-times"></i>
+                </button>
+                <ul class="menu__links" >
+                    <li class="menu__list" ><a href="#landing" class="menu__link" onclick="closeMenu()">Home</a></li>
+                    <li class="menu__list" ><a href="###" class="menu__link" onclick="closeMenu()">Books</a></li>
+                    <li class="menu__list" ><a href="#explore" class="menu__link " onclick="closeMenu()">Contact</a></li>
+                  
+                </ul>
+            </div>
+        </nav> 
+    
 </head>
+
 <body>
     <section id="landing">
-        <div class="row">
-            <nav>
-                <figure class="nav__logo--wrapper">
-                    <a href="###" ><img src="./assets/logo.svg" class="nav__logo" alt=""></a> 
-                    <strong>Treat</strong>
-                </figure>
-                <ul class="nav__links">
-                    <a href="###" class="nav__link" ><li>About</li> </a>
-                    <a href="###" class="nav__link" ><li>Pricing </li> </a>
-                    <a href="###" class="nav__link" ><li>Blog</li> </a>
-                    <a href="###" class="nav__link" ><li>Log In</li> </a>
-                    <a href="###" class="nav__link" ><li>Contact Us</li> </a>
-                    <a href="###" class="nav__link purple__btn" ><li>Sign up</li> </a>
-                </ul>
-            </nav>
-        </div>
+     
         <div class="row descrip__section">
             <div class="description">
                 <h1 class="description__title">Beautiful React Templates <span class="purple">for you.</span></h1>
-                <p class="description__para"> Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
+                <p class="description__para"> Our templates are easy to setup, understand and customize. Fully modular
+                    components with a variety of pages and components.</p>
 
                 <div class="input">
-                       <input class="description__input" type="text"  placeholder= "Your E-mail Address"></span>
-                       <button class="purple__btn get__started">Get Started</button>
+                    <input class="description__input" type="text" placeholder="Your E-mail Address"></span>
+                    <button class="purple__btn get__started">Get Started</button>
                 </div>
 
-                   <div class="description__last">
-                       <h6 class="description__message">OUR TRUSTED CUSTOMERS</h6>
-                       <img src="./assets/sponsors.png"  class="sponsors__img" alt="">
-                    </div>
+                <div class="description__last">
+                    <h6 class="description__message">OUR TRUSTED CUSTOMERS</h6>
+                    <img src="./assets/sponsors.png" class="sponsors__img" alt="">
+                </div>
             </div>
             <figure class="description__img--wrapper">
                 <img src="./assets/q1.svg" class="description__img" alt="">
             </figure>
         </div>
     </section>
+    <main>
     <section id="features">
         <div class="row">
             <div class="features__section">
                 <h5 class="purple features__header">FEATURES</h5>
                 <h2 class="amaze">We have Amazing <span class="purple"> Service.</span></h2>
-                <p class="features__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex expedita repudiandae sed, commodi illo ipsum pariatur, minus vel optio soluta esse quia et nemo corrupti qui quae quidem libero praesentium.</p>
-            
-            <div class="card">
-                <div class="card__container">
-                    <div class ="icon__holder">
-                        <img class="icon" src="./assets/shielded.svg" alt="">
-                    </div>
+                <p class="features__para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex expedita
+                    repudiandae sed, commodi illo ipsum pariatur, minus vel optio soluta esse quia et nemo corrupti qui
+                    quae quidem libero praesentium.</p>
+
+                <div class="card">
+                    <div class="card__container">
+                        <div class="icon__holder">
+                            <img class="icon" src="./assets/shielded.svg" alt="">
+                        </div>
                         <div class="text__container">
                             <h3 class="card__header">Secure</h3>
-                            <p class="features__para incard">We strictly only deal with vendors that provide top notch security.</p>
+                            <p class="features__para incard">We strictly only deal with vendors that provide top notch
+                                security.</p>
                         </div>
                     </div>
-                <div class="card__container">
-                    <div class ="icon__holder">
-                        <img class="icon" src="./assets/customer service.svg" alt="">
-                    </div>
+                    <div class="card__container">
+                        <div class="icon__holder">
+                            <img class="icon" src="./assets/customer service.svg" alt="">
+                        </div>
                         <div class="text__container">
                             <h3 class="card__header">24/7 Support</h3>
-                            <p class="features__para incard">We strictly only deal with vendors that provide top notch security.</p>
+                            <p class="features__para incard">We strictly only deal with vendors that provide top notch
+                                security.</p>
                         </div>
-                </div>
-                <div class="card__container">
-                    <div class ="icon__holder">
-                        <img class="icon" src="./assets/controls.svg" alt="">
                     </div>
+                    <div class="card__container">
+                        <div class="icon__holder">
+                            <img class="icon" src="./assets/controls.svg" alt="">
+                        </div>
                         <div class="text__container">
                             <h3 class="card__header">Customizable</h3>
-                            <p class="features__para incard">We strictly only deal with vendors that provide top notch security.</p>
-                        </div>  
-                </div>
-                <div class="card__container">
-                    <div class ="icon__holder">
-                        <img class="icon" src="./assets/arrows.svg" alt="">
+                            <p class="features__para incard">We strictly only deal with vendors that provide top notch
+                                security.</p>
+                        </div>
                     </div>
+                    <div class="card__container">
+                        <div class="icon__holder">
+                            <img class="icon" src="./assets/arrows.svg" alt="">
+                        </div>
                         <div class="text__container">
                             <h3 class="card__header">Reliable</h3>
-                            <p class="features__para incard">We strictly only deal with vendors that provide top notch security.</p>
+                            <p class="features__para incard">We strictly only deal with vendors that provide top notch
+                                security.</p>
                         </div>
-                </div>
-                <div class="card__container">
-                    <div class ="icon__holder">
-                        <img class="icon" src="./assets/bolt.svg" alt="">
                     </div>
+                    <div class="card__container">
+                        <div class="icon__holder">
+                            <img class="icon" src="./assets/bolt.svg" alt="">
+                        </div>
                         <div class="text__container">
                             <h3 class="card__header">Fast</h3>
-                            <p class="features__para incard">We strictly only deal with vendors that provide top notch security.</p>
+                            <p class="features__para incard">We strictly only deal with vendors that provide top notch
+                                security.</p>
                         </div>
-                </div>
-                <div class="card__container">
-                    <div class ="icon__holder">
-                        <img class="icon" src="./assets/love.svg" alt="">
                     </div>
+                    <div class="card__container">
+                        <div class="icon__holder">
+                            <img class="icon" src="./assets/love.svg" alt="">
+                        </div>
                         <div class="text__container">
                             <h3 class="card__header">Easy</h3>
-                            <p class="features__para incard">We strictly only deal with vendors that provide top notch security.</p>
+                            <p class="features__para incard">We strictly only deal with vendors that provide top notch
+                                security.</p>
                         </div>
-                </div>
-                </div>
-            </div>
-        </section>
-        <section id="work">
-            <div class="row">
-                <div class="descrip__section">
-                    <div class="work__description">
-                        <h3 class="purple">QUALITY WORK</h3>
-                        <h1 class="description__title header__color">Designed & Developed by <span class="purple"> Professionals.</span></h1>
-                        <p class="description__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                        <button class="purple__btn learn__more">Learn More</button>
                     </div>
-                    <figure class="work__description__img--wrapper">
-                        <img class="work__description__img" src="./assets/q2.png" alt="">
-                    </figure>
                 </div>
             </div>
-        </section>
-        <section id="steps">
-            <div class="row">
-                <div class="steps__descrip">
+    </section>
+    <section id="work">
+        <div class="row">
+            <div class="descrip__section">
+                <div class="work__description">
+                    <h3 class="purple">QUALITY WORK</h3>
+                    <h1 class="description__title header__color">Designed & Developed by <span class="purple">
+                            Professionals.</span></h1>
+                    <p class="description__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <button class="purple__btn learn__more">Learn More</button>
+                </div>
+                <figure class="work__description__img--wrapper">
+                    <img class="work__description__img" src="./assets/q2.png" alt="">
+                </figure>
+            </div>
+        </div>
+    </section>
+    <section id="steps">
+        <div class="row">
+            <div class="steps__descrip">
                 <div class="descrip__section">
                     <figure id="work__description__img--wrapper">
                         <img class="work__description__img steps__img" src="./assets/q3.png" alt="">
                         <img class="bubble__wrap" src="./assets/bubbles.svg" alt="">
                     </figure>
-                    
+
                     <div class="work__description shift__left">
                         <h3 class="purple">STEPS</h3>
-                        <h2 class="description__title steps__title"><span class="header__color">EASY TO</span> <span class="purple"> GET STARTED</span></h2>
+                        <h2 class="description__title steps__title"><span class="header__color">EASY TO</span> <span
+                                class="purple"> GET STARTED</span></h2>
                         <ul class="steps__list">
                             <li class="steps__list--item">
                                 <span class="step__number">01</span>
@@ -153,193 +200,208 @@
                                 <span class="step__number">03</span>
                                 <div class="step__description">
                                     <h6 class="step__header">Download</h6>
-                                    <p class="step__para">Browse and Download the template that you like from the marketplace.</p>
+                                    <p class="step__para">Browse and Download the template that you like from the
+                                        marketplace.</p>
                                 </div>
                             </li>
                             <li class="steps__list--item">
                                 <span class="step__number">03</span>
                                 <div class="step__description">
                                     <h6 class="step__header">Run</h6>
-                                    <p class="step__para">Follow the instructions to setup and customize the template to your needs.</p>
+                                    <p class="step__para">Follow the instructions to setup and customize the template to
+                                        your needs.</p>
                                 </div>
                             </li>
                         </ul>
-                   
+
                     </div>
                 </div>
             </div>
-            </div>
-        </section>
-        <section id="values">
-            <div class="row">
-                <div class="descrip__section">
-                    <div class="work__description ">
-                        <h3 class="purple">VALUES</h3>
-                        <h1 class="description__title header__color">We Always Abide by <span class="purple">Our Principles</span></h1>
-                        <p class="description__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                        <div class="value__items">
-                            <div class="value__item">
-                                <div class="value__header">
+        </div>
+    </section>
+    <section id="values">
+        <div class="row">
+            <div class="descrip__section">
+                <div class="work__description ">
+                    <h3 class="purple">VALUES</h3>
+                    <h1 class="description__title header__color">We Always Abide by <span class="purple">Our
+                            Principles</span></h1>
+                    <p class="description__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+                    <div class="value__items">
+                        <div class="value__item">
+                            <div class="value__header">
                                 <figure id="value__icon">
                                     <img class="icon" src="./assets/bolt.svg" alt="">
                                 </figure>
-                                    <h3 class="icon__header">Affordable</h3>
-                                </div>
-                                <p class="values__para">We promise to offer you the best rate we can - at par with the industry standard.</p> 
+                                <h3 class="icon__header">Affordable</h3>
                             </div>
-                            <div class="value__item">
-                                <div class="value__header">
+                            <p class="values__para">We promise to offer you the best rate we can - at par with the
+                                industry standard.</p>
+                        </div>
+                        <div class="value__item">
+                            <div class="value__header">
                                 <figure id="value__icon">
                                     <img class="icon" src="./assets/customer service.svg" alt="">
                                 </figure>
-                                    <h3 class="icon__header">Professionalism</h3>
-                                </div>
-                                <p class="values__para">We assure you that our templates are designed and created by professional designers.
-                                    Learn More</p> 
+                                <h3 class="icon__header">Professionalism</h3>
                             </div>
+                            <p class="values__para">We assure you that our templates are designed and created by
+                                professional designers.
+                                Learn More</p>
                         </div>
-                        <button class="purple__btn learn__more">Learn More</button>
                     </div>
-                    <figure id="work__description__img--wrapper">
-                        <img class="work__description__img steps__img" src="./assets/q4.svg" alt="">
-                    </figure>
+                    <button class="purple__btn learn__more">Learn More</button>
                 </div>
+                <figure id="work__description__img--wrapper">
+                    <img class="work__description__img steps__img" src="./assets/q4.svg" alt="">
+                </figure>
             </div>
-        </section>
-        <section id="pricing">
-            <div class="row">
-                <div class="pricing__content">
-                    <div class="pricing__description">
-                        <h3 class="purple">Pricing</h3>
-                        <h1 class="description__title header__color" >Reasonable & Flexible <span class="purple"> Plans.</span></h1>
-                        <p class="pricing__description__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="plans">
-                        <div class="plan">
-                            <div class="top__color"></div>
-                            <div class="top">
-                                <h2 class="top__header">PERSONAL</h2>
-                                <P class="top__para">$17.99</P>
-                                <P class="monthly__para">MONTHLY</P>
-                            </div>
-                            <div class="middle">
-                                <h2 class="middle__header">For Individuals</h2>
-                                <P class="middle__para">30 Templates</P>
-                                <P class="middle__para">7 Landing Pages</P> 
-                                <P class="middle__para">12 Internal Pages</P>
-                                <P class="middle__para">Basic Assistance</P> 
-                            </div>
-                            <div class="bottom">
-                                <button class="bottom__btn">BUY NOW</button>
-                            </div>
-
-                        </div>
-                        <div class="mm__plan">
-    
-                            <div class="mm__top">
-                                <h2 class="mm__top__header">PERSONAL</h2>
-                                <P class="mm__top__para">$17.99</P>
-                                <P class="mm__monthly__para">MONTHLY</P>
-                            </div>
-                            <div class="mm__middle">
-                                <h2 class="mm__middle__header">For Individuals</h2>
-                                <P class="mm__middle__para">30 Templates</P>
-                                <P class="mm__middle__para">7 Landing Pages</P> 
-                                <P class="mm__middle__para">12 Internal Pages</P>
-                                <P class="mm__middle__para">Basic Assistance</P> 
-                            </div>
-                            <div class="mm__bottom">
-                                <button class="mm__bottom__btn">BUY NOW</button>
-                            </div>
-
-                        </div>
-                        <div class="plan">
-                            <div class="rt__top__color"></div>
-                            <div class="top">
-                                <h2 class="top__header">ENTERPRISE</h2>
-                                <P class="top__para">$57.99</P>
-                                <P class="monthly__para">MONTHLY</P>
-                            </div>
-                            <div class="middle">
-                                <h2 class="middle__header">For Large Companies</h2>
-                                <P class="middle__para">90 Templates</P>
-                                <P class="middle__para">27 Landing Pages</P> 
-                                <P class="middle__para">37 Internal Pages</P>
-                                <P class="middle__para">Personal Assistance</P> 
-                            </div>
-                            <div class="bottom">
-                                <button class="rt__bottom__btn">BUY NOW</button>
-                            </div>
-
-                        </div>
-                        
-                    </div>
-                   
+        </div>
+    </section>
+    <section id="pricing">
+        <div class="row">
+            <div class="pricing__content">
+                <div class="pricing__description">
+                    <h3 class="purple">Pricing</h3>
+                    <h1 class="description__title header__color">Reasonable & Flexible <span class="purple">
+                            Plans.</span></h1>
+                    <p class="pricing__description__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                        do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
+                <div class="plans">
+                    <div class="plan">
+                        <div class="top__color"></div>
+                        <div class="top">
+                            <h2 class="top__header">PERSONAL</h2>
+                            <P class="top__para">$17.99</P>
+                            <P class="monthly__para">MONTHLY</P>
+                        </div>
+                        <div class="middle">
+                            <h2 class="middle__header">For Individuals</h2>
+                            <P class="middle__para">30 Templates</P>
+                            <P class="middle__para">7 Landing Pages</P>
+                            <P class="middle__para">12 Internal Pages</P>
+                            <P class="middle__para">Basic Assistance</P>
+                        </div>
+                        <div class="bottom">
+                            <button class="bottom__btn">BUY NOW</button>
+                        </div>
+
+                    </div>
+                    <div class="mm__plan">
+
+                        <div class="mm__top">
+                            <h2 class="mm__top__header">PERSONAL</h2>
+                            <P class="mm__top__para">$17.99</P>
+                            <P class="mm__monthly__para">MONTHLY</P>
+                        </div>
+                        <div class="mm__middle">
+                            <h2 class="mm__middle__header">For Individuals</h2>
+                            <P class="mm__middle__para">30 Templates</P>
+                            <P class="mm__middle__para">7 Landing Pages</P>
+                            <P class="mm__middle__para">12 Internal Pages</P>
+                            <P class="mm__middle__para">Basic Assistance</P>
+                        </div>
+                        <div class="mm__bottom">
+                            <button class="mm__bottom__btn">BUY NOW</button>
+                        </div>
+
+                    </div>
+                    <div class="plan">
+                        <div class="rt__top__color"></div>
+                        <div class="top">
+                            <h2 class="top__header">ENTERPRISE</h2>
+                            <P class="top__para">$57.99</P>
+                            <P class="monthly__para">MONTHLY</P>
+                        </div>
+                        <div class="middle">
+                            <h2 class="middle__header">For Large Companies</h2>
+                            <P class="middle__para">90 Templates</P>
+                            <P class="middle__para">27 Landing Pages</P>
+                            <P class="middle__para">37 Internal Pages</P>
+                            <P class="middle__para">Personal Assistance</P>
+                        </div>
+                        <div class="bottom">
+                            <button class="rt__bottom__btn">BUY NOW</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
-        </section>
-         <section id="tests">
-            <div class="row">
-                <div class="steps__descrip">
+        </div>
+    </section>
+    <section id="tests">
+        <div class="row">
+            <div class="steps__descrip">
                 <div class="descrip__section">
                     <figure id="work__description__img--wrapper">
                         <img class="work__description__img steps__img" src="./assets/q5.svg" alt="">
                     </figure>
                     <div class="tests__work__description shift__left">
                         <h3 class="purple">TESTIMONIALS</h3>
-                        <h1 class="description__title header__color">OUR CLIENTS <span class="purple"> LOVE US</span></h1>
-                        <p class="description__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-                    
-                    <div class="book__ratings">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
+                        <h1 class="description__title header__color">OUR CLIENTS <span class="purple"> LOVE US</span>
+                        </h1>
+                        <p class="description__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 
-                    <h3 class="icon__header"></h3>
-                    </div>
-                </div>
-            </div>
-            </div>
-
-         </section>
-         <section id="FAQ">
-            <div class="row">
-                <div class="FAQ__content">
-                    <div class="FAQ__description">
-                        <h3 class="purple">FAQS</h3>
-                        <h1 class="FAQ__description__title header__color" >You have <span class="purple"> Questions ?</span></h1>
-                        <p class="FAQ__description__para">And we have got answers to all of them. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="dropdowns">
-                        <div class="drop">
-                            <h3 class="drop__heads">ARE ALL THE TEMPLATES CUSTOMIZABLE?</h3>
-                            <img class="dropdown__btn" src="./assets/dropdown__btn.svg" alt="">
+                        <div class="book__ratings">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
                         </div>
+
+                        <h3 class="icon__header"></h3>
                     </div>
                 </div>
             </div>
-        </section>
-        <section id="reactions">
-            <div class="row">
-                <div class="bottom__box__container">
-                    <div class="box__description">
+        </div>
+
+    </section>
+    <section id="FAQ">
+        <div class="row">
+            <div class="FAQ__content">
+                <div class="FAQ__description">
+                    <h3 class="purple">FAQS</h3>
+                    <h1 class="FAQ__description__title header__color">You have <span class="purple"> Questions ?</span>
+                    </h1>
+                    <p class="FAQ__description__para">And we have got answers to all of them. Lorem ipsum dolor sit
+                        amet, consectetur adipiscing elit.</p>
+                </div>
+                <div class="dropdowns">
+                    <div class="drop">
+                        <h3 class="drop__heads">ARE ALL THE TEMPLATES CUSTOMIZABLE?</h3>
+                        <img class="dropdown__btn" src="./assets/dropdown__btn.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reactions">
+        <div class="row">
+            <div class="bottom__box__container">
+                <div class="box__description">
                     <p class="box__para">Developers all over the world are happily using Treact.</p>
                     <div class="btns">
                         <button class="lefty">GET STARTED</button>
                         <button class="righty">CONTACT US</button>
                     </div>
-                    </div>
                 </div>
             </div>
-        </section>
-        <footer>
-            <div class="row">
-                <div class="footer__container">
-                    <div class="footer__description">
-                        <div class="top__half">
+        </div>
+    </section>
+    <footer>
+        
+            <div class="footer__container">
+                <div class="footer__description">
+                    <div class="top__half">
+                        <div class="top__half--item">
                             <div class="main">
                                 <h5 class="main__header">MAIN</h5>
                                 <ul class="main__list">
@@ -348,15 +410,81 @@
                                     <li class="main__list--item">Support</li>
                                     <li class="main__list--item">Abort Us</li>
                                 </ul>
-
                             </div>
                         </div>
-                        <div class="line"></div>
-                        <div class="bottom__half"></div>
+                        <div class="top__half--item">
+                            <div class="main">
+                                <h5 class="main__header">MAIN</h5>
+                                <ul class="main__list">
+                                    <li class="main__list--item">Blog</li>
+                                    <li class="main__list--item">FAQS</li>
+                                    <li class="main__list--item">Support</li>
+                                    <li class="main__list--item">Abort Us</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="top__half--item">
+                            <div class="main">
+                                <h5 class="main__header">MAIN</h5>
+                                <ul class="main__list">
+                                    <li class="main__list--item">Blog</li>
+                                    <li class="main__list--item">FAQS</li>
+                                    <li class="main__list--item">Support</li>
+                                    <li class="main__list--item">Abort Us</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="top__half--item">
+                            <div class="main">
+                                <h5 class="main__header">MAIN</h5>
+                                <ul class="main__list">
+                                    <li class="main__list--item">Blog</li>
+                                    <li class="main__list--item">FAQS</li>
+                                    <li class="main__list--item">Support</li>
+                                    <li class="main__list--item">Abort Us</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="top__half--item">
+                            <div class="main">
+                                <h5 class="main__header">MAIN</h5>
+                                <ul class="main__list">
+                                    <li class="main__list--item">Blog</li>
+                                    <li class="main__list--item">FAQS</li>
+                                    <li class="main__list--item">Support</li>
+                                    <li class="main__list--item">Abort Us</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
+                
+                <div class="line"></div>
+             <div class="bottom__half">
+                <figure class="right__logo">
+                    <img class="nav__logo" src="./assets/logo.svg" alt="">
+                </figure>
+                <p></p>
+                <div class="hold">
+                <figure class="white__icon__holder">
+                    <img class="white__icon" src="./assets/youtube.svg" alt="">
+                </figure>
+                <figure class="white__icon__holder white">
+                    <img class="white__icon" src="./assets/youtube.svg" alt="">
+                </figure>
+                <figure class="white__icon__holder white">
+                    <img class="white__icon" src="./assets/youtube.svg" alt="">
+                </figure>
+                <figure class="white__icon__holder white">
+                    <img class="white__icon" src="./assets/youtube.svg" alt="">
+                </figure>
                 </div>
+             </div>
             </div>
+            </div>
+    
+        </div>
+    </main>
+    </footer>
+</body>
 
-        </footer>
-    </body>
-    </html>
+</html>
