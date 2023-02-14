@@ -836,3 +836,62 @@ FOOTER
 .white__icon{
   width: 20px;
  }
+/*SMALL PHONES ,TABLETS , LARGE SMARTPHONES*/
+@media (max-width:768px) {
+  .header__description{
+      padding: 0 24px;
+  }
+  h1{
+      font-size: 40px;
+  }
+  h2{
+      font-size: 26px;
+  }
+  button{
+      font: 18px;
+  }
+  .book{
+      width: 50%;
+   
+  }
+  .highlight{
+      width: 100%;
+      margin-bottom: 24px;
+  }
+  
+  #lastest{
+     margin-top: 48px;
+      height: 250vh;
+  }
+  #featured{
+      height: 135vh;
+      
+  }
+  html{
+    width: 100%;
+    max-width: 768px;
+  }
+}
+
+
+
+
+
+
+
+
+
+/* SMALL PHONES , LARGE SMARTPHONES*/
+@media (max-width:550px) {
+  .nav__links{
+      display: none;
+  }
+  .btn__menu{
+      display: block;
+  }
+  html{
+    width: 100%;
+    max-width: 550px;
+  }
+  
+}
