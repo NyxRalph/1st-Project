@@ -11,8 +11,8 @@
     width: 101vw;
   }
   .row{
-    width: 100%;
-    max-width: 1350px;
+    width: 100vw;
+   
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -873,13 +873,10 @@ FOOTER
     width: 100%;
     max-width: 768px;
   }
+  body{
+    width: 100vw;
+  }
 }
-
-
-
-
-
-
 
 
 
@@ -888,12 +885,15 @@ FOOTER
   .nav__links{
       display: none;
   }
+
   .btn__menu{
       display: block;
   }
   html{
-    width: 100%;
+    width: 100vw;
     max-width: 550px;
   }
-  
+  body{
+    width: 100vw;
+  }
 }
