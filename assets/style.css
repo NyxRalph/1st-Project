@@ -757,14 +757,28 @@ FAQ
   padding: 24px 0px;
 
 }
+.dropdowns{
+  max-width: 700px;
+  width: 100%;
+}
 .drop{
   margin: 30px 0px;
   border: 1px solid lightgrey;
-  width: 800px;
-  height: 65px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0px;
+}
+.drop__top{
+  padding: 14px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  
+}
+.drop__para{
+  text-align: center;
 }
 .dropdown__btn{
   width: 40px;
