@@ -728,8 +728,8 @@ BOX CONTAINER
   align-items: center;
  justify-content: center;
   background-image: url(bubbs.svg);
-  background-repeat: 3px;
-  background-color: #8D72E1;
+  background-repeat: inherit;
+  background-color: rgb(100 21 255 );
 }
 .box__para{
   color: rgb(247 250 252 );
@@ -779,7 +779,11 @@ BOX CONTAINER
 FOOTER
 
 */
-
+footer{
+  width: 100%;
+  max-width: 100rem;
+  
+}
 .footer__description{
  
   height: auto;
@@ -788,9 +792,8 @@ FOOTER
   align-items: center;
   justify-content: center;
   border: 1px solid lightgrey;
-  background-color: #3F0071;
-  width: 100%;
-  max-width: 1440px;
+  background-color: rgb(100 21 255 );
+ 
 }
 .main__header{
   color: #fff;
@@ -812,7 +815,7 @@ FOOTER
 }
 .line{
   border: 1px solid lightgrey;
-  width: 1350px;
+  width: 80%;
 }
 .hold{
   display: flex;
@@ -822,7 +825,6 @@ FOOTER
   display: flex; 
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
   width: 100%;
   height: auto;
 }
@@ -842,60 +844,12 @@ FOOTER
  }
 /*SMALL PHONES ,TABLETS , LARGE SMARTPHONES*/
 @media (max-width:768px) {
-  .header__description{
-      padding: 0 24px;
-  }
-  h1{
-      font-size: 40px;
-  }
-  h2{
-      font-size: 26px;
-  }
-  button{
-      font: 18px;
-  }
-  .book{
-      width: 50%;
-   
-  }
-  .highlight{
-      width: 100%;
-      margin-bottom: 24px;
-  }
-  
-  #lastest{
-     margin-top: 48px;
-      height: 250vh;
-  }
-  #featured{
-      height: 135vh;
-      
-  }
-  html{
-    width: 100%;
-    max-width: 768px;
-  }
-  body{
-    width: 100vw;
-  }
+ 
 }
 
 
 
 /* SMALL PHONES , LARGE SMARTPHONES*/
 @media (max-width:550px) {
-  .nav__links{
-      display: none;
-  }
-
-  .btn__menu{
-      display: block;
-  }
-  html{
-    width: 100vw;
-    max-width: 550px;
-  }
-  body{
-    width: 100vw;
-  }
+ 
 }
