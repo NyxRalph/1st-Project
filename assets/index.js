@@ -6,8 +6,8 @@ function closeMenu(){
     }     
     
  function openDrop(){
-    document.drop__para.classList += " open__drop"
+    document.open__drop.classList += " open__drop"
  }
  function closeDrop(){
-    document.drop__para.classList.remove('open--drop')
+    document.open__drop.classList.remove('open__drop')
  }
