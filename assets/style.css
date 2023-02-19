@@ -918,12 +918,18 @@ footer{
   padding: 16px 0px;
 }
 .treact{
+  margin-left: 11px;
   color: #fff;
+  font-size: 1.25rem;
+  font-weight: 900;
+  letter-spacing: 0.05em;
 }
 .copyright{
   color: #fff;
 }
-
+.main{
+  text-align: center;
+}
 .main__list--item{
   color: #fff;
   padding: 10px 0px;
@@ -971,12 +977,7 @@ footer{
  }
 /*SMALL PHONES ,TABLETS , LARGE SMARTPHONES*/
 @media (max-width: 768px) {
-  .nav__links{
-    display: none;
-   }
-  .btn__menu{
-   display: block;
-  }
+  
 }
 
 
@@ -1001,7 +1002,6 @@ footer{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid grey;
 }
 .description__title{
   font-size: 30px;
@@ -1247,7 +1247,19 @@ body{
  text-align: center;
 }
 .top__half{
-  width: 62%;
-  
+  width: 88%;
+}
+.last{
+  width: 100%;
+  margin-top: 24px;
+}
+.bottom__half{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.copyright{
+  margin: 24px 0px;
 }
 }
