@@ -892,12 +892,11 @@ FOOTER
 
 */
 footer{
-  width: 100%;
-  max-width: 100rem;
-  
+  width: 101vw;
+ 
 }
 .footer__description{
- 
+  width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
@@ -905,13 +904,26 @@ footer{
   justify-content: center;
   border: 1px solid lightgrey;
   background-color: rgb(100 21 255 );
+  padding: 40px 0px ;
  
+}
+.right__logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .main__header{
   color: #fff;
   font-size: 20px;
   padding: 16px 0px;
 }
+.treact{
+  color: #fff;
+}
+.copyright{
+  color: #fff;
+}
+
 .main__list--item{
   color: #fff;
   padding: 10px 0px;
@@ -921,13 +933,15 @@ footer{
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
-  width: 100%;
+  
+  width: 88vw;
   height: auto;
+  margin: 40px 0px;
 }
 .line{
   border: 1px solid lightgrey;
-  width: 80%;
+  width: 85%;
+  margin: 24px 0px;
 }
 .hold{
   display: flex;
@@ -937,8 +951,9 @@ footer{
   display: flex; 
   align-items: center;
   justify-content: space-between;
-  width: 100%;
+  width: 85%;
   height: auto;
+  margin: 32px 0px;
 }
 .white__icon__holder{
   width: 40px;
@@ -1196,6 +1211,43 @@ body{
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
+  height: auto;
 }
-
+#tests{
+  height: auto;
+}
+.tests__work__description{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bottom__box__container{
+  height: 400px;
+}
+.box__description{
+  display: flex;
+  flex-direction: column;
+}
+.btns{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.lefty{
+  margin: 10px 0px; 
+}
+.righty{
+  margin: 10px 0px;
+}
+.box__para{
+ text-align: center;
+}
+.top__half{
+  width: 62%;
+  
+}
 }
