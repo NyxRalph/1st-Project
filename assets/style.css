@@ -395,6 +395,12 @@ STEPS
   font-weight: 600;
   color: rgb(203 213 224 );
 }
+.steps__wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .step__header{
   color: rgb(36 62 99 );
   padding-bottom: 15px;
@@ -460,7 +466,9 @@ VALUES
   color: rgb(124 139 161);
 }
 .value__item{
-  margin-top:15px ;
+  margin-top: 15px ;
+  margin-left: 10px ;
+
 }
 .value__items{
   display: flex;
@@ -697,9 +705,7 @@ TESTIMONIALS
 
 #tests{
   margin: 200px 0px;
-  height: 40vw;
   display: flex;
-  
 }
 .book__ratings{
   margin: 24px 0px;
@@ -975,13 +981,29 @@ footer{
 .white__icon{
   width: 20px;
  }
-/*SMALL PHONES ,TABLETS , LARGE SMARTPHONES*/
-@media (max-width: 768px) {
+/*SMALL PHONES ,TABLETS , LARGE SMARTPHONES
+
+Design for tablet displays from 601×962 through 1280×800
+
+
+*/
+
+@media (max-width: 551px) {
+  .get__started{
+    font-size: 17px;
+  }
+}
+
+
+
+
+
+@media (max-width: 1024px) {
   .nav__links{
     display: none;
    }
   .btn__menu{
-   display: block;
+    display: block;
   }
   .nav__container{
     width: 25em;
@@ -989,16 +1011,9 @@ footer{
   .description{
     width: 100%;
   }
-  .descrip__section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
   .description__title{
     font-size: 30px;
     text-align: center;
-  
   }
   .description__para{
     font-size: 17px;
@@ -1007,10 +1022,18 @@ footer{
   .description__input{
   width: 100%;
   }
+  .input{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
   .get__started{
-    
-   
-  
+   z-index: 1;   
+   position: absolute;
+   width: 30%;
+   right: 15px;
+   left: 68%;
+
   }
   .description__last{
     display: flex;
@@ -1021,7 +1044,141 @@ footer{
   .description__img--wrapper{
     width: 100%;
   }
+  .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .worky{
+    height: auto;
+  }
+  .worker{
+    display: block;
+    text-align: left;
+
+  }
+  .steps__wrapper{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .steps__img{
+    width: 100%;
+  }
+  .shift__left{
+    margin-left: 0px;
+  }
+  .ging, .ginc{
+    text-align: left;
+  }
+  .value__head{
+    display: flex;
+    text-align: left;
+  }
+  .value__items{
+    display: flex;
+    flex-direction: column;
+  }
+  .learn__more{
+    margin: 0px;
+  }
+  .steps__descrip{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .shift__left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .lefty, .righty{
+    margin: 10px 0px; 
+  }
 }
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1256px) {
+  .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .worky{
+    height: auto;
+  }
+  .steps__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .lefty, .righty{
+    margin: 10px 0px; 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 837px) {
+  .amaze{
+    text-align: center;
+    font-size: 43px;
+    font-weight: 700;
+  }
+  .card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .card__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .text__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card__header{
+    margin: 0px 10px;
+  }
+  .incard{
+    text-align: center;
+    width: 85%;
+    line-height: 1.8;
+    font-size: 20px;
+  }
+}
+
+
+
+
+
 
 
 
@@ -1071,6 +1228,22 @@ width: 100%;
   justify-content: center;
 }
 .description__img--wrapper{
+  width: 100%;
+}
+.worker{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.steps__wrapper{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.steps__img{
   width: 100%;
 }
 #features{
